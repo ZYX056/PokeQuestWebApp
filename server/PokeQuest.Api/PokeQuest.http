@@ -1,0 +1,6 @@
+@PokeQuest_HostAddress = http://localhost:5102
+
+GET {{PokeQuest_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

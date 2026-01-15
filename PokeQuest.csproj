@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="client\src\api\" />
+    <Folder Include="client\src\hooks\" />
+    <Folder Include="client\src\components\" />
+    <Folder Include="client\src\models\" />
+    <Folder Include="client\src\context\" />
+    <Folder Include="client\src\utils\" />
+    <Folder Include="client\src\pages\" />
+    <Folder Include="server\Controllers\" />
+    <Folder Include="server\Data\" />
+    <Folder Include="server\DTOs\" />
+    <Folder Include="server\External\" />
+    <Folder Include="server\Auth\" />
+    <Folder Include="server\Middleware\" />
+    <Folder Include="server\Utilities\" />
+  </ItemGroup>
+
+</Project>
