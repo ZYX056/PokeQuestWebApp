@@ -8,7 +8,7 @@
     {
         public int Id { get; set; } // Primary Key
 
-        public string Name { get; set; } = "Active Party"; // Party name with default value 
+        public string Name { get; set; } = "Main Party"; // Party name with default value 
 
         public int TrainerId { get; set; } // Foreign key to Trainer
         public Trainer Trainer { get; set; } = null!; // Navigation property to Trainer
