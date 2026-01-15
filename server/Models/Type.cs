@@ -5,7 +5,6 @@
     /// </summary>
     public class Type
     {
-        // Type specific detail fields
         public int TypeId { get; set; } // Primary Key
         public string TypeName { get; set; } // "Fire", "Water", "Grass", etc.
 

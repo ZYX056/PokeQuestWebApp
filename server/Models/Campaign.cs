@@ -7,13 +7,9 @@
     public class Campaign
     {
         public int Id { get; set; } // Primary Key
-
         public string Name { get; set; } = null!; // Campaign name
 
-        // Trainers participating in this campaign
-        public ICollection<Trainer> Trainsers { get; set; } = new List<Trainer>();
-
-        // Parties in the campaign
-        public ICollection<Party> Parties { get; set; } = new List<Party>();
+        public ICollection<Trainer> Trainsers { get; set; } = new List<Trainer>(); // Trainers participating in this campaign
+        public ICollection<Party> Parties { get; set; } = new List<Party>(); // Parties in the campaign
     }
 }
