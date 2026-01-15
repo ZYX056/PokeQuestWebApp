@@ -24,6 +24,12 @@
         public int BaseSpAtt { get; set; }
         public int BaseSpDef { get; set; }
         public int BaseSpeed { get; set; }
+        public int HpModifier { get; set; }
+        public int AttModifier { get; set; }
+        public int DefModifier { get; set; }
+        public int SpAttModifier { get; set; }
+        public int SpDefModifier { get; set; }
+        public int SpeedModifier { get; set; }
 
 
         // Linked fields
